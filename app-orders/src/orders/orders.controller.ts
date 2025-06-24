@@ -5,8 +5,8 @@ import {
   UsePipes,
   ValidationPipe,
 } from '@nestjs/common';
-import { OrdersService } from './orders.service';
-import { CreateOrderDto } from './dto/create-order.dto';
+import { OrdersService } from './orders.service.ts';
+import { CreateOrderDto } from './dto/create-order.dto.ts';
 
 @Controller('orders')
 export class OrdersController {
